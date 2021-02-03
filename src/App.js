@@ -24,7 +24,6 @@ const ShowQuote = ({colorButton}) => {
 
   return(
     <div>
-      <h2></h2>
       <QuoteBox   title={actualAuthor} text={actualQuote} 
         element={
           <Button changeColor={colorButton} handler={handleClick} nameButton="New Quote" 
